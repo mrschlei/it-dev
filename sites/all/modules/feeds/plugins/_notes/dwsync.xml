@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="FeedsCSVParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsSitemapParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsOPMLParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsSyndicationParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsNodeProcessor.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsFetcher.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsSimplePieParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsFileFetcher.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsProcessor.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsParser.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsPlugin.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsTermProcessor.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsUserProcessor.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+<file name="FeedsHTTPFetcher.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131507338130000000" remote="131507338130000000" Dst="1" />
+</dwsync>

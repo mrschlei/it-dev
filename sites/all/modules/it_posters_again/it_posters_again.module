@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the IT Posters again feature.
+ */
+
+include_once 'it_posters_again.features.inc';

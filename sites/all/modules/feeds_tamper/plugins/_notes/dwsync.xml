@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="default_value.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="absolute_url.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="find_replace.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="hash.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="strip_tags.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="cast_to_int.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="convert_case.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="array_filter.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="html_entity_decode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="trim.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="country_to_code.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="state_to_abbrev.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="urlencode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="str_pad.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="strtotime.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="unique.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="timetodate.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="keyword_filter.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="convert_boolean.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="efq_finder.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="implode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="explode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="required.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="sprintf.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="math.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="copy.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="urldecode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="number_format.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="find_replace_regex.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="truncate_text.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="html_entity_encode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="rewrite.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+<file name="encode.inc" server="sftp.itd.umich.edu//afs/umich.edu/group/m/michitdv/Public/html/" local="131573043510000000" remote="131573043510000000" Dst="1" />
+</dwsync>
