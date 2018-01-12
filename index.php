@@ -23,8 +23,11 @@ echo "<h2>$loc</h2>";
 $files = scandir($loc);
 echo "<pre>";var_dump($files);echo "</pre>";
 
+/**
 define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 menu_execute_active_handler();
+*/
+
