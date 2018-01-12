@@ -14,6 +14,15 @@
 /**
  * Root directory of Drupal installation.
  */
+
+error_reporting(-1);
+ini_set('display_errors', 'On');
+$loc = "/var/www/html/sites/all/themes/bootstrap_michit";
+
+echo "<h2>$loc</h2>";
+$files = scandir($loc);
+echo "<pre>";var_dump($files);echo "</pre>";
+
 define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
