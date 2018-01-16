@@ -165,6 +165,12 @@ DirectoryIndex index.php index.html index.htm
  RewriteCond %{REQUEST_URI} ^/login/?$ 
  RewriteRule ^ /index.php [L] 
 
+ RewriteCond %{REQUEST_URI} ^/executive-updates/?$ 
+ RewriteRule ^ /index.php [L] 
+
+ RewriteCond %{REQUEST_URI} ^/groups/?$ 
+ RewriteRule ^ /index.php [L] 
+
  RewriteCond %{REQUEST_URI} ^/dataguide/login/?$ 
  RewriteRule ^ /index.php [L] 
 
