@@ -120,9 +120,7 @@ DirectoryIndex index.php index.html index.htm
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !=/favicon.ico
-  RewriteRule ^ index.php [L]
-
-  RewriteCond %{REQUEST_URI} !cosign/valid
+  #RewriteCond %{REQUEST_URI} !cosign/valid
   RewriteRule ^ index.php [L]
 
   # Rules to correctly serve gzip compressed CSS and JS files.
@@ -150,7 +148,6 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
-
 
 #added so human-created folders bounce back to Drupal 
  RewriteCond %{REQUEST_URI} ^/login/?$ 
