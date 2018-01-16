@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @file
  * The PHP page that serves all page requests on a Drupal installation.
@@ -12,8 +12,6 @@
 /**
  * Root directory of Drupal installation.
  */
-error_reporting(-1);
-ini_set('display_errors', 'On');
 
 define('DRUPAL_ROOT', getcwd());
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
