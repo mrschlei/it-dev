@@ -5,8 +5,7 @@ FROM drupal:7.56-apache
 #### Cosign Pre-requisites ###
 WORKDIR /usr/lib/apache2/modules
 
-ENV COSIGN_URL http://downloads.sourceforge.net/project/cosign/cosign/cosign-3.2.0/cosign-3.2.0.tar.gz
-#ENV GIT_CLONE "git clone https://git.code.sf.net/p/cosign/code cosign-code"
+ENV COSIGN_URL https://github.com/umich-iam/cosign/archive/cosign-3.4.0.tar.gz
 ENV CPPFLAGS="-I/usr/kerberos/include"
 ENV OPENSSL_VERSION 1.0.1t-1+deb8u7
 ENV APACHE2=/usr/sbin/apache2
@@ -14,16 +13,16 @@ ENV APACHE2=/usr/sbin/apache2
 # install PHP and Apache2 here
 RUN apt-get update \
 	&& apt-get install -y wget gcc make openssl \
-		libssl-dev=$OPENSSL_VERSION apache2-dev 
+		libssl-dev=$OPENSSL_VERSION apache2-dev autoconf
 
 ### Build Cosign ###
 RUN wget "$COSIGN_URL" \
 	&& mkdir -p src/cosign \
-	&& tar -xvf cosign-3.2.0.tar.gz -C src/cosign --strip-components=1 \
-	&& rm cosign-3.2.0.tar.gz \
+	&& tar -xvf cosign-3.4.0.tar.gz -C src/cosign --strip-components=1 \
+	&& rm cosign-3.4.0.tar.gz \
 	&& cd src/cosign \
+	&& autoconf \
 	&& ./configure --enable-apache2=/usr/bin/apxs \
-	&& sed -i 's/remote_ip/client_ip/g' ./filters/apache2/mod_cosign.c \
 	&& make \
 	&& make install \
 	&& cd ../../ \
@@ -34,7 +33,7 @@ RUN wget "$COSIGN_URL" \
 #WORKDIR /etc/apache2
 
 ### Remove pre-reqs ###
-RUN apt-get remove -y make wget \
+RUN apt-get remove -y make wget autoconf \
 	&& apt-get autoremove -y
 
 EXPOSE 443
