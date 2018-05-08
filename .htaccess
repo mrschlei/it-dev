@@ -126,7 +126,7 @@ DirectoryIndex index.php index.html index.htm
   RewriteCond %{REQUEST_URI} !=/favicon.ico
   #RewriteRule ^ index.php [L]
   
-  RewriteCond %{REQUEST_URI} cosign/valid
+  RewriteCond %{REQUEST_URI} !cosign/valid
   RewriteRule ^ index.php [L]
   
   RewriteCond %{REQUEST_URI} ^/be-aware/?$
