@@ -1,4 +1,4 @@
-FROM drupal:7.56-apache
+FROM drupal7-cosign:latest
 
 #MAINTAINER: Ben Fairfield - benfa
 
